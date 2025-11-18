@@ -1,0 +1,55 @@
+=== GAME INFO ===
+{
+    "platform": "pc",
+    "galaxies_bought": 0,
+    "dimboosts_bought": 0,
+    "has_sacrifice": false,
+    "game_time": "19:04.209",
+    "ticks_passed": 34673,
+    "tick_duration": 0.033
+}
+=== END GAME INFO ===
+
+=== ACTIONS ===
+item: dimension 1, amount: 10, total:  10, cost_one: 1e+01, cost_amount: 1e+02, cost_stack: 1e+02, time: 00:25.179
+item: dimension 2, amount: 10, total:  10, cost_one: 1e+02, cost_amount: 1e+03, cost_stack: 1e+03, time: 00:56.397
+item:   tickspeed, amount:  1, total:   1, cost_one: 1e+03, cost_amount: 1e+03, cost_stack: 1e+03, time: 01:08.079
+item:   tickspeed, amount:  1, total:   2, cost_one: 1e+04, cost_amount: 1e+04, cost_stack: 1e+04, time: 01:46.293
+item: dimension 3, amount: 10, total:  10, cost_one: 1e+04, cost_amount: 1e+05, cost_stack: 1e+05, time: 03:19.485
+item:   tickspeed, amount:  1, total:   3, cost_one: 1e+05, cost_amount: 1e+05, cost_stack: 1e+05, time: 03:48.723
+item: dimension 1, amount: 10, total:  20, cost_one: 1e+04, cost_amount: 1e+05, cost_stack: 1e+05, time: 04:03.210
+item:   tickspeed, amount:  1, total:   4, cost_one: 1e+06, cost_amount: 1e+06, cost_stack: 1e+06, time: 04:40.401
+item: dimension 4, amount: 10, total:  10, cost_one: 1e+06, cost_amount: 1e+07, cost_stack: 1e+07, time: 06:11.085
+item:   tickspeed, amount:  1, total:   5, cost_one: 1e+07, cost_amount: 1e+07, cost_stack: 1e+07, time: 06:44.448
+item: dimension 2, amount: 10, total:  20, cost_one: 1e+06, cost_amount: 1e+07, cost_stack: 1e+07, time: 07:01.509
+item:   tickspeed, amount:  1, total:   6, cost_one: 1e+08, cost_amount: 1e+08, cost_stack: 1e+08, time: 07:49.821
+item: dimension 1, amount: 10, total:  30, cost_one: 1e+07, cost_amount: 1e+08, cost_stack: 1e+08, time: 08:07.443
+item:   tickspeed, amount:  1, total:   7, cost_one: 1e+09, cost_amount: 1e+09, cost_stack: 1e+09, time: 08:50.079
+item:   tickspeed, amount:  1, total:   8, cost_one: 1e+10, cost_amount: 1e+10, cost_stack: 1e+10, time: 10:29.574
+item: dimension 3, amount: 10, total:  20, cost_one: 1e+09, cost_amount: 1e+10, cost_stack: 1e+10, time: 11:06.633
+item:   tickspeed, amount:  1, total:   9, cost_one: 1e+11, cost_amount: 1e+11, cost_stack: 1e+11, time: 13:14.244
+item: dimension 1, amount: 10, total:  40, cost_one: 1e+10, cost_amount: 1e+11, cost_stack: 1e+11, time: 14:01.830
+item: dimension 2, amount: 10, total:  30, cost_one: 1e+10, cost_amount: 1e+11, cost_stack: 1e+11, time: 14:19.353
+item:   tickspeed, amount:  1, total:  10, cost_one: 1e+12, cost_amount: 1e+12, cost_stack: 1e+12, time: 15:44.823
+item: dimension 4, amount: 10, total:  20, cost_one: 1e+12, cost_amount: 1e+13, cost_stack: 1e+13, time: 19:04.209
+=== END ACTIONS ===
+
+=== STRATEGY SEARCH INFO ===
+{
+    "purchase_strategy": "FixedT12345678PurchaseStrategy",
+    "sacrifice_strategy": "NeverSacrificeStrategy",
+    "sacrifice_step": 0,
+    "strategy_search_time": "00:03.793",
+    "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
+    "used_memory_mb": 33.73,
+    "states_analyzed": 1,
+    "number_of_winners": 1,
+    "time_breakdown": {
+        "tick": "00:00.827 (21%)",
+        "buy": "00:01.709 (45%)",
+        "sacrifice": "00:00.000 (0%)",
+        "clear": "00:00.000 (0%)",
+        "other": "00:01.257 (33%)"
+    }
+}
+=== END STRATEGY SEARCH INFO ===

@@ -1,0 +1,292 @@
+=== GAME INFO ===
+{
+    "platform": "pc",
+    "galaxies_bought": 0,
+    "dimboosts_bought": 7,
+    "has_sacrifice": false,
+    "game_time": "82:06.801",
+    "ticks_passed": 149297,
+    "tick_duration": 0.033
+}
+=== END GAME INFO ===
+
+=== ACTIONS ===
+item: dimension 1, amount: 10, total:  10, cost_one: 1e+01, cost_amount: 1e+02, cost_stack: 1e+02, time: 00:00.165
+item: dimension 2, amount: 10, total:  10, cost_one: 1e+02, cost_amount: 1e+03, cost_stack: 1e+03, time: 00:00.330
+item:   tickspeed, amount:  1, total:   1, cost_one: 1e+03, cost_amount: 1e+03, cost_stack: 1e+03, time: 00:00.429
+item:   tickspeed, amount:  1, total:   2, cost_one: 1e+04, cost_amount: 1e+04, cost_stack: 1e+04, time: 00:00.660
+item: dimension 3, amount: 10, total:  10, cost_one: 1e+04, cost_amount: 1e+05, cost_stack: 1e+05, time: 00:01.353
+item:   tickspeed, amount:  1, total:   3, cost_one: 1e+05, cost_amount: 1e+05, cost_stack: 1e+05, time: 00:01.617
+item: dimension 1, amount: 10, total:  20, cost_one: 1e+04, cost_amount: 1e+05, cost_stack: 1e+05, time: 00:01.782
+item:   tickspeed, amount:  1, total:   4, cost_one: 1e+06, cost_amount: 1e+06, cost_stack: 1e+06, time: 00:02.145
+item: dimension 4, amount: 10, total:  10, cost_one: 1e+06, cost_amount: 1e+07, cost_stack: 1e+07, time: 00:03.068
+item:   tickspeed, amount:  1, total:   5, cost_one: 1e+07, cost_amount: 1e+07, cost_stack: 1e+07, time: 00:03.465
+item: dimension 2, amount: 10, total:  20, cost_one: 1e+06, cost_amount: 1e+07, cost_stack: 1e+07, time: 00:03.696
+item:   tickspeed, amount:  1, total:   6, cost_one: 1e+08, cost_amount: 1e+08, cost_stack: 1e+08, time: 00:04.389
+item: dimension 1, amount: 10, total:  30, cost_one: 1e+07, cost_amount: 1e+08, cost_stack: 1e+08, time: 00:04.653
+item:   tickspeed, amount:  1, total:   7, cost_one: 1e+09, cost_amount: 1e+09, cost_stack: 1e+09, time: 00:05.280
+item: dimension 5, amount: 10, total:  10, cost_one: 1e+09, cost_amount: 1e+10, cost_stack: 1e+10, time: 00:06.699
+item:   tickspeed, amount:  1, total:   8, cost_one: 1e+10, cost_amount: 1e+10, cost_stack: 1e+10, time: 00:07.293
+item: dimension 3, amount: 10, total:  20, cost_one: 1e+09, cost_amount: 1e+10, cost_stack: 1e+10, time: 00:07.656
+item:   tickspeed, amount:  1, total:   9, cost_one: 1e+11, cost_amount: 1e+11, cost_stack: 1e+11, time: 00:08.976
+item: dimension 2, amount: 10, total:  30, cost_one: 1e+10, cost_amount: 1e+11, cost_stack: 1e+11, time: 00:09.405
+item: dimension 1, amount: 10, total:  40, cost_one: 1e+10, cost_amount: 1e+11, cost_stack: 1e+11, time: 00:09.669
+item:   tickspeed, amount:  1, total:  10, cost_one: 1e+12, cost_amount: 1e+12, cost_stack: 1e+12, time: 00:10.296
+item:   tickspeed, amount:  1, total:  11, cost_one: 1e+13, cost_amount: 1e+13, cost_stack: 1e+13, time: 00:11.748
+item: dimension 4, amount: 10, total:  20, cost_one: 1e+12, cost_amount: 1e+13, cost_stack: 1e+13, time: 00:12.309
+item: dimension 6, amount: 10, total:  10, cost_one: 1e+13, cost_amount: 1e+14, cost_stack: 1e+14, time: 00:14.223
+item:   tickspeed, amount:  1, total:  12, cost_one: 1e+14, cost_amount: 1e+14, cost_stack: 1e+14, time: 00:15.015
+item: dimension 1, amount: 10, total:  50, cost_one: 1e+13, cost_amount: 1e+14, cost_stack: 1e+14, time: 00:15.477
+item:   tickspeed, amount:  1, total:  13, cost_one: 1e+15, cost_amount: 1e+15, cost_stack: 1e+15, time: 00:16.763
+item: dimension 3, amount: 10, total:  30, cost_one: 1e+14, cost_amount: 1e+15, cost_stack: 1e+15, time: 00:17.391
+item: dimension 2, amount: 10, total:  40, cost_one: 1e+14, cost_amount: 1e+15, cost_stack: 1e+15, time: 00:17.820
+item:   tickspeed, amount:  1, total:  14, cost_one: 1e+16, cost_amount: 1e+16, cost_stack: 1e+16, time: 00:19.140
+item:   tickspeed, amount:  1, total:  15, cost_one: 1e+17, cost_amount: 1e+17, cost_stack: 1e+17, time: 00:21.219
+item: dimension 1, amount: 10, total:  60, cost_one: 1e+16, cost_amount: 1e+17, cost_stack: 1e+17, time: 00:21.912
+item:   tickspeed, amount:  1, total:  16, cost_one: 1e+18, cost_amount: 1e+18, cost_stack: 1e+18, time: 00:23.429
+item: dimension 5, amount: 10, total:  20, cost_one: 1e+17, cost_amount: 1e+18, cost_stack: 1e+18, time: 00:24.123
+item: dimension 7, amount: 10, total:  10, cost_one: 1e+18, cost_amount: 1e+19, cost_stack: 1e+19, time: 00:26.697
+item:   tickspeed, amount:  1, total:  17, cost_one: 1e+19, cost_amount: 1e+19, cost_stack: 1e+19, time: 00:27.786
+item: dimension 4, amount: 10, total:  30, cost_one: 1e+18, cost_amount: 1e+19, cost_stack: 1e+19, time: 00:28.413
+item: dimension 2, amount: 10, total:  50, cost_one: 1e+18, cost_amount: 1e+19, cost_stack: 1e+19, time: 00:28.908
+item:   tickspeed, amount:  1, total:  18, cost_one: 1e+20, cost_amount: 1e+20, cost_stack: 1e+20, time: 00:30.822
+item: dimension 3, amount: 10, total:  40, cost_one: 1e+19, cost_amount: 1e+20, cost_stack: 1e+20, time: 00:31.548
+item: dimension 1, amount: 10, total:  70, cost_one: 1e+19, cost_amount: 1e+20, cost_stack: 1e+20, time: 00:32.009
+item:   tickspeed, amount:  1, total:  19, cost_one: 1e+21, cost_amount: 1e+21, cost_stack: 1e+21, time: 00:33.231
+item:   tickspeed, amount:  1, total:  20, cost_one: 1e+22, cost_amount: 1e+22, cost_stack: 1e+22, time: 00:35.640
+item:   tickspeed, amount:  1, total:  21, cost_one: 1e+23, cost_amount: 1e+23, cost_stack: 1e+23, time: 00:38.841
+item: dimension 2, amount: 10, total:  60, cost_one: 1e+22, cost_amount: 1e+23, cost_stack: 1e+23, time: 00:39.831
+item: dimension 1, amount: 10, total:  80, cost_one: 1e+22, cost_amount: 1e+23, cost_stack: 1e+23, time: 00:40.392
+item:   tickspeed, amount:  1, total:  22, cost_one: 1e+24, cost_amount: 1e+24, cost_stack: 1e+24, time: 00:41.745
+item: dimension 6, amount: 10, total:  20, cost_one: 1e+23, cost_amount: 1e+24, cost_stack: 1e+24, time: 00:42.405
+item: dimension 8, amount: 10, total:  10, cost_one: 1e+24, cost_amount: 1e+25, cost_stack: 1e+25, time: 00:45.012
+item:   tickspeed, amount:  1, total:  23, cost_one: 1e+25, cost_amount: 1e+25, cost_stack: 1e+25, time: 00:46.200
+item: dimension 4, amount: 10, total:  40, cost_one: 1e+24, cost_amount: 1e+25, cost_stack: 1e+25, time: 00:46.893
+item: dimension 3, amount: 10, total:  50, cost_one: 1e+24, cost_amount: 1e+25, cost_stack: 1e+25, time: 00:47.454
+item:   tickspeed, amount:  1, total:  24, cost_one: 1e+26, cost_amount: 1e+26, cost_stack: 1e+26, time: 00:49.896
+item: dimension 5, amount: 10, total:  30, cost_one: 1e+25, cost_amount: 1e+26, cost_stack: 1e+26, time: 00:50.820
+item: dimension 1, amount: 10, total:  90, cost_one: 1e+25, cost_amount: 1e+26, cost_stack: 1e+26, time: 00:51.414
+item:   tickspeed, amount:  1, total:  25, cost_one: 1e+27, cost_amount: 1e+27, cost_stack: 1e+27, time: 00:52.998
+item: dimension 2, amount: 10, total:  70, cost_one: 1e+26, cost_amount: 1e+27, cost_stack: 1e+27, time: 00:53.757
+item:   tickspeed, amount:  1, total:  26, cost_one: 1e+28, cost_amount: 1e+28, cost_stack: 1e+28, time: 00:55.836
+item:   tickspeed, amount:  1, total:  27, cost_one: 1e+29, cost_amount: 1e+29, cost_stack: 1e+29, time: 00:58.905
+item: dimension 1, amount: 10, total: 100, cost_one: 1e+28, cost_amount: 1e+29, cost_stack: 1e+29, time: 00:59.862
+item:   tickspeed, amount:  1, total:  28, cost_one: 1e+30, cost_amount: 1e+30, cost_stack: 1e+30, time: 01:01.875
+item: dimension 3, amount: 10, total:  60, cost_one: 1e+29, cost_amount: 1e+30, cost_stack: 1e+30, time: 01:02.766
+item:   tickspeed, amount:  1, total:  29, cost_one: 1e+31, cost_amount: 1e+31, cost_stack: 1e+31, time: 01:05.570
+item: dimension 7, amount: 10, total:  20, cost_one: 1e+30, cost_amount: 1e+31, cost_stack: 1e+31, time: 01:06.495
+item: dimension 4, amount: 10, total:  50, cost_one: 1e+30, cost_amount: 1e+31, cost_stack: 1e+31, time: 01:07.121
+item: dimension 2, amount: 10, total:  80, cost_one: 1e+30, cost_amount: 1e+31, cost_stack: 1e+31, time: 01:07.584
+item:   tickspeed, amount:  1, total:  30, cost_one: 1e+32, cost_amount: 1e+32, cost_stack: 1e+32, time: 01:09.432
+item: dimension 1, amount: 10, total: 110, cost_one: 1e+31, cost_amount: 1e+32, cost_stack: 1e+32, time: 01:10.191
+item:   tickspeed, amount:  1, total:  31, cost_one: 1e+33, cost_amount: 1e+33, cost_stack: 1e+33, time: 01:11.939
+item:   tickspeed, amount:  1, total:  32, cost_one: 1e+34, cost_amount: 1e+34, cost_stack: 1e+34, time: 01:15.636
+item: dimension 6, amount: 10, total:  30, cost_one: 1e+33, cost_amount: 1e+34, cost_stack: 1e+34, time: 01:16.856
+item: dimension 5, amount: 10, total:  40, cost_one: 1e+33, cost_amount: 1e+34, cost_stack: 1e+34, time: 01:17.649
+item:   tickspeed, amount:  1, total:  33, cost_one: 1e+35, cost_amount: 1e+35, cost_stack: 1e+35, time: 01:21.015
+item: dimension 3, amount: 10, total:  70, cost_one: 1e+34, cost_amount: 1e+35, cost_stack: 1e+35, time: 01:22.335
+item: dimension 2, amount: 10, total:  90, cost_one: 1e+34, cost_amount: 1e+35, cost_stack: 1e+35, time: 01:23.192
+item: dimension 1, amount: 10, total: 120, cost_one: 1e+34, cost_amount: 1e+35, cost_stack: 1e+35, time: 01:23.721
+item:   tickspeed, amount:  1, total:  34, cost_one: 1e+36, cost_amount: 1e+36, cost_stack: 1e+36, time: 01:25.041
+item:   tickspeed, amount:  1, total:  35, cost_one: 1e+37, cost_amount: 1e+37, cost_stack: 1e+37, time: 01:28.044
+item: dimension 4, amount: 10, total:  60, cost_one: 1e+36, cost_amount: 1e+37, cost_stack: 1e+37, time: 01:29.100
+item:   tickspeed, amount:  1, total:  36, cost_one: 1e+38, cost_amount: 1e+38, cost_stack: 1e+38, time: 01:32.631
+item: dimension 1, amount: 10, total: 130, cost_one: 1e+37, cost_amount: 1e+38, cost_stack: 1e+38, time: 01:33.885
+item:   tickspeed, amount:  1, total:  37, cost_one: 1e+39, cost_amount: 1e+39, cost_stack: 1e+39, time: 01:36.558
+item: dimension 2, amount: 10, total: 100, cost_one: 1e+38, cost_amount: 1e+39, cost_stack: 1e+39, time: 01:37.746
+item:   tickspeed, amount:  1, total:  38, cost_one: 1e+40, cost_amount: 1e+40, cost_stack: 1e+40, time: 01:41.112
+item: dimension 8, amount: 10, total:  20, cost_one: 1e+39, cost_amount: 1e+40, cost_stack: 1e+40, time: 01:42.365
+item: dimension 3, amount: 10, total:  80, cost_one: 1e+39, cost_amount: 1e+40, cost_stack: 1e+40, time: 01:43.224
+item:   tickspeed, amount:  1, total:  39, cost_one: 1e+41, cost_amount: 1e+41, cost_stack: 1e+41, time: 01:46.853
+item: dimension 1, amount: 10, total: 140, cost_one: 1e+40, cost_amount: 1e+41, cost_stack: 1e+41, time: 01:48.273
+item:   tickspeed, amount:  1, total:  40, cost_one: 1e+42, cost_amount: 1e+42, cost_stack: 1e+42, time: 01:51.507
+item: dimension 5, amount: 10, total:  50, cost_one: 1e+41, cost_amount: 1e+42, cost_stack: 1e+42, time: 01:52.992
+item:   tickspeed, amount:  1, total:  41, cost_one: 1e+43, cost_amount: 1e+43, cost_stack: 1e+43, time: 01:58.503
+item: dimension 7, amount: 10, total:  30, cost_one: 1e+42, cost_amount: 1e+43, cost_stack: 1e+43, time: 02:00.582
+item: dimension 4, amount: 10, total:  70, cost_one: 1e+42, cost_amount: 1e+43, cost_stack: 1e+43, time: 02:01.935
+item: dimension 2, amount: 10, total: 110, cost_one: 1e+42, cost_amount: 1e+43, cost_stack: 1e+43, time: 02:02.990
+item:   tickspeed, amount:  1, total:  42, cost_one: 1e+44, cost_amount: 1e+44, cost_stack: 1e+44, time: 02:06.918
+item: dimension 6, amount: 10, total:  40, cost_one: 1e+43, cost_amount: 1e+44, cost_stack: 1e+44, time: 02:08.436
+item: dimension 1, amount: 10, total: 150, cost_one: 1e+43, cost_amount: 1e+44, cost_stack: 1e+44, time: 02:09.459
+item:   tickspeed, amount:  1, total:  43, cost_one: 1e+45, cost_amount: 1e+45, cost_stack: 1e+45, time: 02:12.362
+item: dimension 3, amount: 10, total:  90, cost_one: 1e+44, cost_amount: 1e+45, cost_stack: 1e+45, time: 02:13.782
+item:   tickspeed, amount:  1, total:  44, cost_one: 1e+46, cost_amount: 1e+46, cost_stack: 1e+46, time: 02:18.798
+item:   tickspeed, amount:  1, total:  45, cost_one: 1e+47, cost_amount: 1e+47, cost_stack: 1e+47, time: 02:25.794
+item: dimension 2, amount: 10, total: 120, cost_one: 1e+46, cost_amount: 1e+47, cost_stack: 1e+47, time: 02:27.938
+item: dimension 1, amount: 10, total: 160, cost_one: 1e+46, cost_amount: 1e+47, cost_stack: 1e+47, time: 02:29.159
+item:   tickspeed, amount:  1, total:  46, cost_one: 1e+48, cost_amount: 1e+48, cost_stack: 1e+48, time: 02:32.097
+item:   tickspeed, amount:  1, total:  47, cost_one: 1e+49, cost_amount: 1e+49, cost_stack: 1e+49, time: 02:38.796
+item: dimension 4, amount: 10, total:  80, cost_one: 1e+48, cost_amount: 1e+49, cost_stack: 1e+49, time: 02:41.171
+item:   tickspeed, amount:  1, total:  48, cost_one: 1e+50, cost_amount: 1e+50, cost_stack: 1e+50, time: 02:48.861
+item: dimension 5, amount: 10, total:  60, cost_one: 1e+49, cost_amount: 1e+50, cost_stack: 1e+50, time: 02:51.501
+item: dimension 3, amount: 10, total: 100, cost_one: 1e+49, cost_amount: 1e+50, cost_stack: 1e+50, time: 02:53.183
+item: dimension 1, amount: 10, total: 170, cost_one: 1e+49, cost_amount: 1e+50, cost_stack: 1e+50, time: 02:54.438
+item:   tickspeed, amount:  1, total:  49, cost_one: 1e+51, cost_amount: 1e+51, cost_stack: 1e+51, time: 02:58.034
+item: dimension 2, amount: 10, total: 130, cost_one: 1e+50, cost_amount: 1e+51, cost_stack: 1e+51, time: 02:59.751
+item:   tickspeed, amount:  1, total:  50, cost_one: 1e+52, cost_amount: 1e+52, cost_stack: 1e+52, time: 03:04.866
+item:   tickspeed, amount:  1, total:  51, cost_one: 1e+53, cost_amount: 1e+53, cost_stack: 1e+53, time: 03:13.281
+item: dimension 1, amount: 10, total: 180, cost_one: 1e+52, cost_amount: 1e+53, cost_stack: 1e+53, time: 03:16.086
+item:   tickspeed, amount:  1, total:  52, cost_one: 1e+54, cost_amount: 1e+54, cost_stack: 1e+54, time: 03:22.389
+item: dimension 6, amount: 10, total:  50, cost_one: 1e+53, cost_amount: 1e+54, cost_stack: 1e+54, time: 03:25.227
+item:   tickspeed, amount:  1, total:  53, cost_one: 1e+55, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:35.522
+item: dimension 8, amount: 10, total:  30, cost_one: 1e+54, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:39.417
+item: dimension 7, amount: 10, total:  40, cost_one: 1e+54, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:41.991
+item: dimension 4, amount: 10, total:  90, cost_one: 1e+54, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:43.938
+item: dimension 3, amount: 10, total: 110, cost_one: 1e+54, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:45.522
+item: dimension 2, amount: 10, total: 140, cost_one: 1e+54, cost_amount: 1e+55, cost_stack: 1e+55, time: 03:46.875
+item:   tickspeed, amount:  1, total:  54, cost_one: 1e+56, cost_amount: 1e+56, cost_stack: 1e+56, time: 03:52.617
+item: dimension 1, amount: 10, total: 190, cost_one: 1e+55, cost_amount: 1e+56, cost_stack: 1e+56, time: 03:54.894
+item:   tickspeed, amount:  1, total:  55, cost_one: 1e+57, cost_amount: 1e+57, cost_stack: 1e+57, time: 04:00.273
+item:   tickspeed, amount:  1, total:  56, cost_one: 1e+58, cost_amount: 1e+58, cost_stack: 1e+58, time: 04:11.559
+item: dimension 5, amount: 10, total:  70, cost_one: 1e+57, cost_amount: 1e+58, cost_stack: 1e+58, time: 04:15.387
+item:   tickspeed, amount:  1, total:  57, cost_one: 1e+59, cost_amount: 1e+59, cost_stack: 1e+59, time: 04:27.927
+item: dimension 2, amount: 10, total: 150, cost_one: 1e+58, cost_amount: 1e+59, cost_stack: 1e+59, time: 04:32.382
+item: dimension 1, amount: 10, total: 200, cost_one: 1e+58, cost_amount: 1e+59, cost_stack: 1e+59, time: 04:34.923
+item:   tickspeed, amount:  1, total:  58, cost_one: 1e+60, cost_amount: 1e+60, cost_stack: 1e+60, time: 04:40.862
+item: dimension 3, amount: 10, total: 120, cost_one: 1e+59, cost_amount: 1e+60, cost_stack: 1e+60, time: 04:43.668
+item:   tickspeed, amount:  1, total:  59, cost_one: 1e+61, cost_amount: 1e+61, cost_stack: 1e+61, time: 04:53.733
+item: dimension 4, amount: 10, total: 100, cost_one: 1e+60, cost_amount: 1e+61, cost_stack: 1e+61, time: 04:57.297
+item:   tickspeed, amount:  1, total:  60, cost_one: 1e+62, cost_amount: 1e+62, cost_stack: 1e+62, time: 05:09.110
+item: dimension 1, amount: 10, total: 210, cost_one: 1e+61, cost_amount: 1e+62, cost_stack: 1e+62, time: 05:13.302
+item:   tickspeed, amount:  1, total:  61, cost_one: 1e+63, cost_amount: 1e+63, cost_stack: 1e+63, time: 05:22.377
+item: dimension 2, amount: 10, total: 160, cost_one: 1e+62, cost_amount: 1e+63, cost_stack: 1e+63, time: 05:26.370
+item:   tickspeed, amount:  1, total:  62, cost_one: 1e+64, cost_amount: 1e+64, cost_stack: 1e+64, time: 05:37.920
+item: dimension 6, amount: 10, total:  60, cost_one: 1e+63, cost_amount: 1e+64, cost_stack: 1e+64, time: 05:42.177
+item:   tickspeed, amount:  1, total:  63, cost_one: 1e+65, cost_amount: 1e+65, cost_stack: 1e+65, time: 05:57.555
+item: dimension 3, amount: 10, total: 130, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 06:03.495
+item: dimension 1, amount: 10, total: 220, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 06:07.422
+item:   tickspeed, amount:  1, total:  64, cost_one: 1e+66, cost_amount: 1e+66, cost_stack: 1e+66, time: 06:17.420
+item: dimension 5, amount: 10, total:  80, cost_one: 1e+65, cost_amount: 1e+66, cost_stack: 1e+66, time: 06:22.008
+item:   tickspeed, amount:  1, total:  65, cost_one: 1e+67, cost_amount: 1e+67, cost_stack: 1e+67, time: 06:38.640
+item: dimension 7, amount: 10, total:  50, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 06:44.811
+item: dimension 4, amount: 10, total: 110, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 06:48.870
+item: dimension 2, amount: 10, total: 170, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 06:51.972
+item:   tickspeed, amount:  1, total:  66, cost_one: 1e+68, cost_amount: 1e+68, cost_stack: 1e+68, time: 07:03.786
+item: dimension 1, amount: 10, total: 230, cost_one: 1e+67, cost_amount: 1e+68, cost_stack: 1e+68, time: 07:08.340
+item:   tickspeed, amount:  1, total:  67, cost_one: 1e+69, cost_amount: 1e+69, cost_stack: 1e+69, time: 07:18.966
+item:   tickspeed, amount:  1, total:  68, cost_one: 1e+70, cost_amount: 1e+70, cost_stack: 1e+70, time: 07:40.713
+item: dimension 8, amount: 10, total:  40, cost_one: 1e+69, cost_amount: 1e+70, cost_stack: 1e+70, time: 07:47.939
+item: dimension 3, amount: 10, total: 140, cost_one: 1e+69, cost_amount: 1e+70, cost_stack: 1e+70, time: 07:52.659
+item:   tickspeed, amount:  1, total:  69, cost_one: 1e+71, cost_amount: 1e+71, cost_stack: 1e+71, time: 08:11.436
+item: dimension 2, amount: 10, total: 180, cost_one: 1e+70, cost_amount: 1e+71, cost_stack: 1e+71, time: 08:18.300
+item: dimension 1, amount: 10, total: 240, cost_one: 1e+70, cost_amount: 1e+71, cost_stack: 1e+71, time: 08:22.425
+item:   tickspeed, amount:  1, total:  70, cost_one: 1e+72, cost_amount: 1e+72, cost_stack: 1e+72, time: 08:32.325
+item:   tickspeed, amount:  1, total:  71, cost_one: 1e+73, cost_amount: 1e+73, cost_stack: 1e+73, time: 08:56.118
+item: dimension 4, amount: 10, total: 120, cost_one: 1e+72, cost_amount: 1e+73, cost_stack: 1e+73, time: 09:04.764
+item:   tickspeed, amount:  1, total:  72, cost_one: 1e+74, cost_amount: 1e+74, cost_stack: 1e+74, time: 09:33.572
+item: dimension 6, amount: 10, total:  70, cost_one: 1e+73, cost_amount: 1e+74, cost_stack: 1e+74, time: 09:43.505
+item: dimension 5, amount: 10, total:  90, cost_one: 1e+73, cost_amount: 1e+74, cost_stack: 1e+74, time: 09:49.908
+item: dimension 1, amount: 10, total: 250, cost_one: 1e+73, cost_amount: 1e+74, cost_stack: 1e+74, time: 09:54.692
+item:   tickspeed, amount:  1, total:  73, cost_one: 1e+75, cost_amount: 1e+75, cost_stack: 1e+75, time: 10:09.278
+item: dimension 3, amount: 10, total: 150, cost_one: 1e+74, cost_amount: 1e+75, cost_stack: 1e+75, time: 10:16.902
+item: dimension 2, amount: 10, total: 190, cost_one: 1e+74, cost_amount: 1e+75, cost_stack: 1e+75, time: 10:22.314
+item:   tickspeed, amount:  1, total:  74, cost_one: 1e+76, cost_amount: 1e+76, cost_stack: 1e+76, time: 10:39.870
+item:   tickspeed, amount:  1, total:  75, cost_one: 1e+77, cost_amount: 1e+77, cost_stack: 1e+77, time: 11:07.458
+item: dimension 1, amount: 10, total: 260, cost_one: 1e+76, cost_amount: 1e+77, cost_stack: 1e+77, time: 11:16.500
+item:   tickspeed, amount:  1, total:  76, cost_one: 1e+78, cost_amount: 1e+78, cost_stack: 1e+78, time: 11:36.596
+item:   tickspeed, amount:  1, total:  77, cost_one: 1e+79, cost_amount: 1e+79, cost_stack: 1e+79, time: 12:16.230
+item: dimension 7, amount: 10, total:  60, cost_one: 1e+78, cost_amount: 1e+79, cost_stack: 1e+79, time: 12:29.133
+item: dimension 4, amount: 10, total: 130, cost_one: 1e+78, cost_amount: 1e+79, cost_stack: 1e+79, time: 12:37.548
+item: dimension 2, amount: 10, total: 200, cost_one: 1e+78, cost_amount: 1e+79, cost_stack: 1e+79, time: 12:43.917
+item:   tickspeed, amount:  1, total:  78, cost_one: 1e+80, cost_amount: 1e+80, cost_stack: 1e+80, time: 13:08.799
+item: dimension 3, amount: 10, total: 160, cost_one: 1e+79, cost_amount: 1e+80, cost_stack: 1e+80, time: 13:18.600
+item: dimension 1, amount: 10, total: 270, cost_one: 1e+79, cost_amount: 1e+80, cost_stack: 1e+80, time: 13:25.233
+item:   tickspeed, amount:  1, total:  79, cost_one: 1e+81, cost_amount: 1e+81, cost_stack: 1e+81, time: 13:42.723
+item:   tickspeed, amount:  1, total:  80, cost_one: 1e+82, cost_amount: 1e+82, cost_stack: 1e+82, time: 14:20.177
+item: dimension 5, amount: 10, total: 100, cost_one: 1e+81, cost_amount: 1e+82, cost_stack: 1e+82, time: 14:32.949
+item:   tickspeed, amount:  1, total:  81, cost_one: 1e+83, cost_amount: 1e+83, cost_stack: 1e+83, time: 15:16.014
+item: dimension 2, amount: 10, total: 210, cost_one: 1e+82, cost_amount: 1e+83, cost_stack: 1e+83, time: 15:31.623
+item: dimension 1, amount: 10, total: 280, cost_one: 1e+82, cost_amount: 1e+83, cost_stack: 1e+83, time: 15:40.764
+item:   tickspeed, amount:  1, total:  82, cost_one: 1e+84, cost_amount: 1e+84, cost_stack: 1e+84, time: 16:02.181
+item: dimension 6, amount: 10, total:  80, cost_one: 1e+83, cost_amount: 1e+84, cost_stack: 1e+84, time: 16:12.509
+item:   tickspeed, amount:  1, total:  83, cost_one: 1e+85, cost_amount: 1e+85, cost_stack: 1e+85, time: 16:52.704
+item: dimension 8, amount: 10, total:  50, cost_one: 1e+84, cost_amount: 1e+85, cost_stack: 1e+85, time: 17:08.510
+item: dimension 4, amount: 10, total: 140, cost_one: 1e+84, cost_amount: 1e+85, cost_stack: 1e+85, time: 17:19.136
+item: dimension 3, amount: 10, total: 170, cost_one: 1e+84, cost_amount: 1e+85, cost_stack: 1e+85, time: 17:27.288
+item:   tickspeed, amount:  1, total:  84, cost_one: 1e+86, cost_amount: 1e+86, cost_stack: 1e+86, time: 18:03.753
+item: dimension 1, amount: 10, total: 290, cost_one: 1e+85, cost_amount: 1e+86, cost_stack: 1e+86, time: 18:17.217
+item:   tickspeed, amount:  1, total:  85, cost_one: 1e+87, cost_amount: 1e+87, cost_stack: 1e+87, time: 18:46.586
+item: dimension 2, amount: 10, total: 220, cost_one: 1e+86, cost_amount: 1e+87, cost_stack: 1e+87, time: 18:59.622
+item:   tickspeed, amount:  1, total:  86, cost_one: 1e+88, cost_amount: 1e+88, cost_stack: 1e+88, time: 19:37.506
+item:   tickspeed, amount:  1, total:  87, cost_one: 1e+89, cost_amount: 1e+89, cost_stack: 1e+89, time: 20:39.809
+item: dimension 1, amount: 10, total: 300, cost_one: 1e+88, cost_amount: 1e+89, cost_stack: 1e+89, time: 21:00.666
+item:   tickspeed, amount:  1, total:  88, cost_one: 1e+90, cost_amount: 1e+90, cost_stack: 1e+90, time: 21:47.030
+item: dimension 5, amount: 10, total: 110, cost_one: 1e+89, cost_amount: 1e+90, cost_stack: 1e+90, time: 22:07.721
+item: dimension 3, amount: 10, total: 180, cost_one: 1e+89, cost_amount: 1e+90, cost_stack: 1e+90, time: 22:22.010
+item:   tickspeed, amount:  1, total:  89, cost_one: 1e+91, cost_amount: 1e+91, cost_stack: 1e+91, time: 23:20.553
+item: dimension 7, amount: 10, total:  70, cost_one: 1e+90, cost_amount: 1e+91, cost_stack: 1e+91, time: 23:41.837
+item: dimension 4, amount: 10, total: 150, cost_one: 1e+90, cost_amount: 1e+91, cost_stack: 1e+91, time: 23:55.764
+item: dimension 2, amount: 10, total: 230, cost_one: 1e+90, cost_amount: 1e+91, cost_stack: 1e+91, time: 24:06.291
+item:   tickspeed, amount:  1, total:  90, cost_one: 1e+92, cost_amount: 1e+92, cost_stack: 1e+92, time: 24:47.310
+item: dimension 1, amount: 10, total: 310, cost_one: 1e+91, cost_amount: 1e+92, cost_stack: 1e+92, time: 25:03.513
+item:   tickspeed, amount:  1, total:  91, cost_one: 1e+93, cost_amount: 1e+93, cost_stack: 1e+93, time: 25:41.528
+item:   tickspeed, amount:  1, total:  92, cost_one: 1e+94, cost_amount: 1e+94, cost_stack: 1e+94, time: 27:00.300
+item: dimension 6, amount: 10, total:  90, cost_one: 1e+93, cost_amount: 1e+94, cost_stack: 1e+94, time: 27:26.535
+item:   tickspeed, amount:  1, total:  93, cost_one: 1e+95, cost_amount: 1e+95, cost_stack: 1e+95, time: 28:52.764
+item: dimension 3, amount: 10, total: 190, cost_one: 1e+94, cost_amount: 1e+95, cost_stack: 1e+95, time: 29:23.850
+item: dimension 2, amount: 10, total: 240, cost_one: 1e+94, cost_amount: 1e+95, cost_stack: 1e+95, time: 29:44.046
+item: dimension 1, amount: 10, total: 320, cost_one: 1e+94, cost_amount: 1e+95, cost_stack: 1e+95, time: 29:57.278
+item:   tickspeed, amount:  1, total:  94, cost_one: 1e+96, cost_amount: 1e+96, cost_stack: 1e+96, time: 30:29.784
+item:   tickspeed, amount:  1, total:  95, cost_one: 1e+97, cost_amount: 1e+97, cost_stack: 1e+97, time: 31:45.189
+item: dimension 4, amount: 10, total: 160, cost_one: 1e+96, cost_amount: 1e+97, cost_stack: 1e+97, time: 32:12.117
+item:   tickspeed, amount:  1, total:  96, cost_one: 1e+98, cost_amount: 1e+98, cost_stack: 1e+98, time: 33:41.976
+item: dimension 5, amount: 10, total: 120, cost_one: 1e+97, cost_amount: 1e+98, cost_stack: 1e+98, time: 34:13.227
+item: dimension 1, amount: 10, total: 330, cost_one: 1e+97, cost_amount: 1e+98, cost_stack: 1e+98, time: 34:33.489
+item:   tickspeed, amount:  1, total:  97, cost_one: 1e+99, cost_amount: 1e+99, cost_stack: 1e+99, time: 35:28.104
+item: dimension 2, amount: 10, total: 250, cost_one: 1e+98, cost_amount: 1e+99, cost_stack: 1e+99, time: 35:54.603
+item:   tickspeed, amount:  1, total:  98, cost_one: 1e+100, cost_amount: 1e+100, cost_stack: 1e+100, time: 37:12.351
+item: dimension 8, amount: 10, total:  60, cost_one: 1e+99, cost_amount: 1e+100, cost_stack: 1e+100, time: 37:40.632
+item: dimension 3, amount: 10, total: 200, cost_one: 1e+99, cost_amount: 1e+100, cost_stack: 1e+100, time: 37:59.838
+item:   tickspeed, amount:  1, total:  99, cost_one: 1e+101, cost_amount: 1e+101, cost_stack: 1e+101, time: 39:19.797
+item: dimension 1, amount: 10, total: 340, cost_one: 1e+100, cost_amount: 1e+101, cost_stack: 1e+101, time: 39:50.157
+item:   tickspeed, amount:  1, total: 100, cost_one: 1e+102, cost_amount: 1e+102, cost_stack: 1e+102, time: 40:59.325
+item:   tickspeed, amount:  1, total: 101, cost_one: 1e+103, cost_amount: 1e+103, cost_stack: 1e+103, time: 43:22.445
+item: dimension 7, amount: 10, total:  80, cost_one: 1e+102, cost_amount: 1e+103, cost_stack: 1e+103, time: 44:10.626
+item: dimension 4, amount: 10, total: 170, cost_one: 1e+102, cost_amount: 1e+103, cost_stack: 1e+103, time: 44:42.471
+item: dimension 2, amount: 10, total: 260, cost_one: 1e+102, cost_amount: 1e+103, cost_stack: 1e+103, time: 45:06.626
+item:   tickspeed, amount:  1, total: 102, cost_one: 1e+104, cost_amount: 1e+104, cost_stack: 1e+104, time: 46:42.063
+item: dimension 6, amount: 10, total: 100, cost_one: 1e+103, cost_amount: 1e+104, cost_stack: 1e+104, time: 47:19.914
+item: dimension 1, amount: 10, total: 350, cost_one: 1e+103, cost_amount: 1e+104, cost_stack: 1e+104, time: 47:45.818
+item:   tickspeed, amount:  1, total: 103, cost_one: 1e+105, cost_amount: 1e+105, cost_stack: 1e+105, time: 48:59.508
+item: dimension 3, amount: 10, total: 210, cost_one: 1e+104, cost_amount: 1e+105, cost_stack: 1e+105, time: 49:36.864
+item:   tickspeed, amount:  1, total: 104, cost_one: 1e+106, cost_amount: 1e+106, cost_stack: 1e+106, time: 51:47.181
+item: dimension 5, amount: 10, total: 130, cost_one: 1e+105, cost_amount: 1e+106, cost_stack: 1e+106, time: 52:31.797
+item:   tickspeed, amount:  1, total: 105, cost_one: 1e+107, cost_amount: 1e+107, cost_stack: 1e+107, time: 54:56.832
+item: dimension 2, amount: 10, total: 270, cost_one: 1e+106, cost_amount: 1e+107, cost_stack: 1e+107, time: 55:47.981
+item: dimension 1, amount: 10, total: 360, cost_one: 1e+106, cost_amount: 1e+107, cost_stack: 1e+107, time: 56:17.615
+item:   tickspeed, amount:  1, total: 106, cost_one: 1e+108, cost_amount: 1e+108, cost_stack: 1e+108, time: 57:26.652
+item:   tickspeed, amount:  1, total: 107, cost_one: 1e+109, cost_amount: 1e+109, cost_stack: 1e+109, time: 60:01.026
+item: dimension 4, amount: 10, total: 180, cost_one: 1e+108, cost_amount: 1e+109, cost_stack: 1e+109, time: 60:54.486
+item:   tickspeed, amount:  1, total: 108, cost_one: 1e+110, cost_amount: 1e+110, cost_stack: 1e+110, time: 63:48.627
+item: dimension 3, amount: 10, total: 220, cost_one: 1e+109, cost_amount: 1e+110, cost_stack: 1e+110, time: 64:48.192
+item: dimension 1, amount: 10, total: 370, cost_one: 1e+109, cost_amount: 1e+110, cost_stack: 1e+110, time: 65:26.274
+item:   tickspeed, amount:  1, total: 109, cost_one: 1e+111, cost_amount: 1e+111, cost_stack: 1e+111, time: 67:00.258
+item: dimension 2, amount: 10, total: 280, cost_one: 1e+110, cost_amount: 1e+111, cost_stack: 1e+111, time: 67:43.191
+item:   tickspeed, amount:  1, total: 110, cost_one: 1e+112, cost_amount: 1e+112, cost_stack: 1e+112, time: 69:50.141
+item:   tickspeed, amount:  1, total: 111, cost_one: 1e+113, cost_amount: 1e+113, cost_stack: 1e+113, time: 73:25.764
+item: dimension 1, amount: 10, total: 380, cost_one: 1e+112, cost_amount: 1e+113, cost_stack: 1e+113, time: 74:39.882
+item:   tickspeed, amount:  1, total: 112, cost_one: 1e+114, cost_amount: 1e+114, cost_stack: 1e+114, time: 77:27.324
+item: dimension 6, amount: 10, total: 110, cost_one: 1e+113, cost_amount: 1e+114, cost_stack: 1e+114, time: 78:43.059
+item: dimension 5, amount: 10, total: 140, cost_one: 1e+113, cost_amount: 1e+114, cost_stack: 1e+114, time: 79:35.793
+item: dimension 8, amount:  5, total:  65, cost_one: 1e+114, cost_amount: 5e+114, cost_stack: 1e+115, time: 82:06.801
+=== END ACTIONS ===
+
+=== STRATEGY SEARCH INFO ===
+{
+    "purchase_strategy": "FixedT87654321PurchaseStrategy",
+    "sacrifice_strategy": "NeverSacrificeStrategy",
+    "sacrifice_step": 0,
+    "strategy_search_time": "00:23.561",
+    "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
+    "used_memory_mb": 554.676,
+    "states_analyzed": 1,
+    "number_of_winners": 1,
+    "time_breakdown": {
+        "tick": "00:06.488 (27%)",
+        "buy": "00:10.712 (45%)",
+        "sacrifice": "00:00.000 (0%)",
+        "clear": "00:00.000 (0%)",
+        "other": "00:06.361 (26%)"
+    }
+}
+=== END STRATEGY SEARCH INFO ===

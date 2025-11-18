@@ -1,0 +1,65 @@
+.tab-button {
+  transition: all 0.3s ease;
+}
+
+.tab-button:not(.active) {
+  border-bottom: 2px solid transparent;
+}
+
+.tab-content {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.column-toggle {
+  transition: all 0.2s ease;
+}
+
+.column-toggle:hover {
+  transform: translateY(-1px);
+}
+
+.tracking-highlight {
+  outline: 4px solid #d97706 !important;
+  outline-offset: -3px;
+  box-shadow: 0 0 20px #f59e0b;
+  position: relative;
+  z-index: 10;
+}
+
+.tracking-mode-active {
+  background-color: rgba(251, 191, 36, 0.05);
+}
+
+/* Fixed column widths */
+.table-fixed {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table-fixed th,
+.table-fixed td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Column width definitions */
+.column-index { width: 40px; }
+.column-action { width: 100px; }
+.column-amount { width: 40px; }
+.column-total { width: 40px; }
+.column-cost-one { width: 70px; }
+.column-cost-amount { width: 70px; }
+.column-cost-stack { width: 70px; }
+.column-time { width: 80px; }
+
+/* Best iteration styling */
+.best-iteration {
+  border-left: 4px solid #f59e0b !important;
+  background-color: rgba(245, 158, 11, 0.05) !important;
+}

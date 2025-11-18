@@ -1,0 +1,28 @@
+{
+    "description": [
+        "87654321T",
+        "",
+        "Strategy that follows fixed purchase priority: 8 -> 7 -> ... -> 1 -> tickspeed",
+        "",
+        "1. If the first dimension is not purchased, buy it.",
+        "2. If any dimension is not a multiple of 10, buy it (as a result, each dimension can only be purchased in stack of 10).",
+        "3. Consider only purchases with minimum stack cost (for dimensions: cost of 10 purchases).",
+        "4. If there is an unpurchased dimension among remaining options, buy it.",
+        "5. If purchasing the highest dimension would complete a dimboost, buy it.",
+        "6. Choose (among the remaining) a purchase based on priority: 8 -> 7 -> ... -> 1 -> tickspeed"
+    ],
+    "times": {
+        "pc": {
+            "0": "252:46.434",
+            "1": "134:50.078",
+            "2": "51:04.045",
+            "total": "438:40.558"
+        },
+        "mobile": {
+            "0": "126:21.824",
+            "1": "67:21.598",
+            "2": "25:28.024",
+            "total": "219:11.446"
+        }
+    }
+}

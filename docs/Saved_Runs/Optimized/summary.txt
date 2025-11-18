@@ -1,0 +1,26 @@
+{
+    "description": [
+        "Optimized",
+        "",
+        "Optimized purchase strategy that uses intuitive logical rules to reduce search space and find purchase sequence for any dimboost. Matches exhaustive search on the first three dimboosts (cannot verify beyond that).",
+        "",
+        "1. If the first dimension is not purchased, buy it.",
+        "2. If any purchase is cheaper than 1/1000 of current antimatter, buy it.",
+        "3. If any dimension has more than 10 total purchases and the current count is not a multiple of 10, buy it (as a result, each dimension can be purchased not in stack of 10 only during the first 10 purchases).",
+        "4. Dimensions and tickspeed are purchased in groups with the same stack cost (e.g., first all purchases with cost for stack 1e50, then 1e51, 1e52, etc.). The exception is the last available dimension for purchase - if it costs X for stack, it can be purchased not only in the X for stack group but also in the 0.1*X for stack group."
+    ],
+    "times": {
+        "pc": {
+            "0": "249:09.394",
+            "1": "132:50.652",
+            "2": "50:22.601",
+            "total": "432:22.647"
+        },
+        "mobile": {
+            "0": "124:33.375",
+            "1": "66:22.024",
+            "2": "25:07.449",
+            "total": "216:02.850"
+        }
+    }
+}

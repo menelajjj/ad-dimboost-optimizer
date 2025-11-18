@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Antimatter Dimensions Dimboost Optimizer</title>
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#111] text-gray-200 min-h-screen p-6">
+  <div class="max-w-7xl mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-center text-green-400">Antimatter Dimensions Dimboost Optimizer</h1>
+
+    <!-- Strategy Selection -->
+    <div class="bg-[#1a1a1a] border border-gray-700 rounded-lg p-4 mb-6">
+      <div class="flex flex-wrap gap-4 items-end">
+        <!-- Strategy dropdown  -->
+        <label class="flex-1 min-w-[300px]">
+          <span class="block text-sm mb-1">Strategy</span>
+          <select id="strategy" class="w-full bg-[#222] border border-gray-600 rounded px-2 py-1"></select>
+        </label>
+        
+        <!-- Buttons -->
+        <div class="flex gap-2 flex-1 min-w-[300px] md:flex-none md:w-auto">
+          <button id="toggleStrategyInfo" class="flex-1 md:flex-none md:w-[150px] bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors">
+            Show Info
+          </button>
+          <button id="openHelp" class="flex-1 md:flex-none md:w-[150px] bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded transition-colors">
+            Help
+          </button>
+        </div>
+      </div>
+      
+      <!-- Strategy Info - hidden by default -->
+      <div id="strategyInfoContainer" class="mt-4 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+          <!-- Description Block -->
+          <div class="lg:col-span-3 bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+            <div class="text-green-400 font-semibold mb-2">Description</div>
+            <div id="strategyDescription" class="text-sm"></div>
+          </div>
+          
+          <!-- PC and Mobile Block -->
+          <div class="flex flex-col gap-4">
+            <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+              <div class="text-green-400 font-semibold mb-2">PC</div>
+              <div id="strategyTimesPC" class="text-sm"></div>
+            </div>
+            
+            <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+              <div class="text-green-400 font-semibold mb-2">MOBILE</div>
+              <div id="strategyTimesMobile" class="text-sm"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Parameters Panel -->
+    <div class="bg-[#1a1a1a] border border-gray-700 rounded-lg p-4 mb-6">
+      <div class="flex flex-wrap gap-4 items-end">
+        <label class="flex-1 min-w-[150px]">
+          <span class="block text-sm mb-1">Platform</span>
+          <select id="platform" class="w-full bg-[#222] border border-gray-600 rounded px-2 py-1"></select>
+        </label>
+        <label class="flex-1 min-w-[150px]">
+          <span class="block text-sm mb-1">Galaxies</span>
+          <select id="galaxy" class="w-full bg-[#222] border border-gray-600 rounded px-2 py-1"></select>
+        </label>
+        <label class="flex-1 min-w-[150px]">
+          <span class="block text-sm mb-1">Dimboosts</span>
+          <select id="dimboost" class="w-full bg-[#222] border border-gray-600 rounded px-2 py-1"></select>
+        </label>
+        <label class="flex-1 min-w-[150px]">
+          <span class="block text-sm mb-1">Sacrifice</span>
+          <select id="sacrifice" class="w-full bg-[#222] border border-gray-600 rounded px-2 py-1">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+        </label>
+        
+        <!-- Buttons -->
+        <div class="flex gap-2 flex-1 min-w-[300px] md:flex-none md:w-auto">
+          <button id="trackingBtn" class="flex-1 min-w-[150px] bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors">
+            Start Tracking
+          </button>
+          <button id="downloadBtn" class="flex-1 min-w-[150px] bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded transition-colors">
+            Download File
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Info -->
+    <h2 class="text-xl font-semibold mb-2 text-purple-300">Game Info</h2>
+    <div id="gameInfo" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+      <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+        <div class="text-green-400 font-semibold">Game time</div>
+        <div id="gameInfo-time">-</div>
+      </div>
+      <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+        <div class="text-green-400 font-semibold">Ticks passed</div>
+        <div id="gameInfo-ticks">-</div>
+      </div>
+      <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2">
+        <div class="text-green-400 font-semibold">Tick duration</div>
+        <div id="gameInfo-tick-duration">-</div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex justify-between items-center mb-2">
+      <h2 class="text-xl font-semibold text-purple-300">Actions</h2>
+      <div class="flex items-center gap-2">
+        <span class="text-sm text-gray-400">Show columns:</span>
+        <div class="flex flex-wrap gap-2" id="columnToggles">
+          <!-- Column toggles will be inserted here by JavaScript -->
+        </div>
+        <button id="toggleAllColumns" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-2 py-1 rounded transition-colors">
+          Toggle All
+        </button>
+      </div>
+    </div>
+
+    <!-- Tracking Info -->
+    <div id="trackingInfo" class="mb-4 hidden bg-amber-900 border border-amber-600 rounded p-3">
+      <div class="flex justify-between items-center">
+        <div>
+          <span class="text-amber-300 font-semibold">Tracking Mode Active</span>
+          <span class="text-amber-200 ml-2">Current action: <span id="currentActionIndex">1</span> of <span id="totalActions">0</span></span>
+        </div>
+        <div class="text-sm text-amber-200">
+          Press <kbd class="bg-amber-700 px-2 py-1 rounded">Space</kbd> or 
+          <kbd class="bg-amber-700 px-2 py-1 rounded">Click</kbd> inside table to advance • 
+          <kbd class="bg-amber-700 px-2 py-1 rounded">Escape</kbd> to stop tracking
+        </div>
+      </div>
+    </div>
+    
+    <div class="overflow-x-auto" id="tableContainer">
+      <table class="table-fixed w-full text-sm border-collapse">
+        <thead class="bg-[#222] text-gray-300">
+          <tr>
+            <th class="border border-gray-700 px-2 py-1 column-index">#</th>
+            <th class="border border-gray-700 px-2 py-1 column-action">Action</th>
+            <th class="border border-gray-700 px-2 py-1 column-amount">Amount</th>
+            <th class="border border-gray-700 px-2 py-1 column-total">Total</th>
+            <th class="border border-gray-700 px-2 py-1 column-cost-one">Cost One</th>
+            <th class="border border-gray-700 px-2 py-1 column-cost-amount">Cost Amount</th>
+            <th class="border border-gray-700 px-2 py-1 column-cost-stack">Cost Stack</th>
+            <th class="border border-gray-700 px-2 py-1 column-time">Time</th>
+          </tr>
+        </thead>
+        <tbody id="actionsBody">
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Strategy Search Info -->
+    <div id="strategySearchContainer" class="hidden">
+      <h2 class="text-xl font-semibold mt-6 mb-2 text-purple-300">Strategy Search Info</h2>
+      <div id="strategySearchInfo" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3"></div>
+    </div>
+
+    <!-- Time Breakdown Section -->
+    <div id="timeBreakdownContainer" class="mt-6 hidden">
+      <h2 class="text-xl font-semibold mb-2 text-purple-300">Strategy Search Time Breakdown</h2>
+      <div id="timeBreakdown" class="bg-[#1c1c1c] border border-gray-700 rounded p-4"></div>
+    </div>
+
+    <!-- Iterative Optimization Info -->
+    <div id="optimizationContainer" class="mt-6 hidden">
+      <h2 class="text-xl font-semibold mb-2 text-purple-300">Iterative Optimization Info</h2>
+      <div id="iterativeOptimizationInfo" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mb-4"></div>
+      
+      <h3 class="text-lg font-semibold mb-2 text-purple-300 mt-6">Optimization Iterations</h3>
+      <div id="iterationsAccordion" class="space-y-4"></div>
+    </div>
+  </div>
+
+  <!-- Help Modal -->
+  <div id="helpModal" class="fixed inset-0 bg-black bg-opacity-75 hidden z-50 flex items-center justify-center p-4">
+    <div class="bg-[#1a1a1a] border border-gray-700 rounded-lg max-w-4xl w-full max-h-[80vh] overflow-hidden">
+      <div class="flex justify-between items-center p-4 border-b border-gray-700">
+        <h3 class="text-xl font-semibold text-green-400">Help</h3>
+        <button id="closeHelp" class="text-gray-400 hover:text-white text-2xl">&times;</button>
+      </div>
+      
+      <div class="flex border-b border-gray-700">
+        <button class="tab-button active px-4 py-2 text-green-400 border-b-2 border-green-400 hover:text-white" data-tab="about">About</button>
+        <button class="tab-button px-4 py-2 text-gray-400 border-b-2 border-transparent hover:text-white" data-tab="cost-stack">Actions</button>
+        <button class="tab-button px-4 py-2 text-gray-400 border-b-2 border-transparent hover:text-white" data-tab="program-work">Program</button>
+        <button class="tab-button px-4 py-2 text-gray-400 border-b-2 border-transparent hover:text-white" data-tab="sacrifice_strategies">Sacrifice</button>
+      </div>
+      
+      <div class="p-6 overflow-y-auto max-h-[60vh]">
+        <div id="tab-about" class="tab-content active">
+          <h4 class="text-lg font-semibold mb-3 text-purple-300">About This Tool</h4>
+          
+          <div class="mb-4">
+            <p class="mb-3">This tool for Antimatter Dimensions game (<a href="https://ivark.github.io/AntimatterDimensions/" target="_blank" class="text-blue-300 hover:text-blue-200 underline">PC</a> / <a href="https://play.google.com/store/apps/details?id=kajfosz.antimatterdimensions" target="_blank" class="text-blue-300 hover:text-blue-200 underline">mobile</a>) shows optimal sequences of purchases and sacrifices to complete each dimboost in the shortest time.</p>
+            
+            <p class="mb-3">The best known completion times are achieved using the "Optimized" purchase strategy. You can also view and compare several fixed-priority purchase strategies.</p>
+            
+            <p class="mb-3">Action sequences are computed using a program written in Python and C++ that simulates game execution with different action sequences <span class="text-gray-400 text-sm">(see Program tab)</span>.</p>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-4 py-3 mb-4">
+            <div class="text-green-400 font-semibold mb-2">Inspiration</div>
+            <p class="mb-2">Idea to write a program searching for optimal strategies is inspired by the posts of <span class="text-amber-300">u/Gugolplekso</span> on Reddit:</p>
+            <ul class="list-disc list-inside space-y-1 text-blue-300">
+              <li><a href="https://www.reddit.com/r/AntimatterDimensions/comments/1c2biye/searching_for_optimal_earlygame_strategy_first/" target="_blank" class="hover:text-blue-200 underline">Searching for optimal early-game strategy: first Dimension Boost achieved!</a></li>
+              <li><a href="https://www.reddit.com/r/AntimatterDimensions/comments/1c3ucuo/searching_for_optimal_earlygame_strategy_second/" target="_blank" class="hover:text-blue-200 underline">Searching for optimal early-game strategy: second Dimension Boost achieved!</a></li>
+            </ul>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-4 py-3 mb-4">
+            <div class="text-green-400 font-semibold mb-2">Source Code</div>
+            <p>The strategy calculation code and all data files are available on GitHub:</p>
+            <a href="https://github.com/menelajjj/ad-dimboost-optimizer" target="_blank" class="text-blue-300 hover:text-blue-200 underline mt-2 inline-block">
+              github.com/menelajjj/ad-dimboost-optimizer
+            </a>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-4 py-3">
+            <div class="text-green-400 font-semibold mb-2">Contact</div>
+            <p>Have questions or suggestions? Feel free to reach out:</p>
+            <a href="mailto:menelajjj@gmail.com" class="text-blue-300 hover:text-blue-200 underline mt-2 inline-block">
+              menelajjj@gmail.com
+            </a>
+          </div>
+        </div>
+        
+        <div id="tab-cost-stack" class="tab-content hidden">
+          <h4 class="text-lg font-semibold mb-3 text-purple-300">Actions Display</h4>
+          <p class="mb-3">Consecutive purchases of the same dimension with identical cost are grouped into a single action with the corresponding <strong>Amount</strong> and <strong>Cost Amount</strong>. <strong>Cost Stack</strong> shows how much it would cost to buy 10 dimensions at once.</p>
+          <p class="mb-3">Tickspeed purchases are never grouped (amount is always 1). For tickspeed, <strong>Cost One</strong>, <strong>Cost Amount</strong> and <strong>Cost Stack</strong> always represent the cost of a single purchase.</p>
+          <p class="mb-3">The thick border lines separate groups of purchases that share the same <strong>Cost Stack</strong> value.</p>
+        </div>
+        
+        <div id="tab-program-work" class="tab-content hidden">
+          <h4 class="text-lg font-semibold mb-3 text-purple-300">How Strategy Files Are Generated</h4>
+          <p class="mb-3">The game simulation is implemented in a program written in Python and C++. The simulation accounts for all available bonuses in the first infinity, with one exception: it doesn't track the unlocking of achievements below the first row in real-time. The first achievement row is accounted for in the same way as in the actual game, while other achievements are granted at the start of the subsequent dimboost after they would be earned in the actual game.</p>
+
+          <p class="mb-3">The simulation uses a tick duration of 0.033 seconds for the PC version and 0.025 seconds for the mobile version. The mobile version includes the permanent ad bonus (2x multiplier to each dimension's production).</p>
+
+          <p class="mb-3">The strategy files are generated by simulating multiple parallel game paths simultaneously. The program maintains game states containing purchased dimension counts, total dimension amounts, action history, allowed next purchases, and potential next sacrifices. Each simulation cycle processes these states through several phases:</p>
+          
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+            <div class="text-green-400 font-semibold">Tick</div>
+            <div>Every state generates dimensions and antimatter.</div>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+            <div class="text-green-400 font-semibold">Buy <span class="text-gray-400 text-sm">(see Purchase Strategies description available via the strategy info button)</span></div>
+            <div>For each state, the program checks if the cheapest allowed purchase (from the list of allowed next purchases) is affordable. When a purchase becomes possible, the state splits into two branches (if there are multiple allowed purchases; relevant only for branching strategies like Optimized). One branch executes the purchase, then generates a new purchase list. The other branch removes this purchase option and considers the next cheapest alternative from the allowed purchase list.</div>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+            <div class="text-green-400 font-semibold">Sacrifice <span class="text-gray-400 text-sm">(see Sacrifice tab)</span></div>
+            <div>For each state (if sacrifice is available), the program tests sacrifice opportunities from the list of available next sacrifices. When a sacrifice becomes viable, the state branches. One branch executes the sacrifice, then generates a new sacrifice list. The other branch excludes this sacrifice option and moves to the next potential sacrifice.</div>
+          </div>
+
+          <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+            <div class="text-green-400 font-semibold">Clear</div>
+            <div>After significant growth in the number of game states, the program performs a cleanup. It compares all existing states pairwise, eliminating any state that is worse than at least one other state.</div>
+          </div>
+
+          <p class="mb-3">The simulation continues until any state achieves the victory condition. If there are multiple winning states, the one with the highest number of first dimensions is saved.</p>
+        </div>
+        
+        <div id="tab-sacrifice_strategies" class="tab-content hidden">
+          <h4 class="text-lg font-semibold mb-3 text-purple-300">Sacrifice</h4>
+          
+            <p class="mb-3">Since combining branching Purchase Strategy and Sacrifice Strategy would exponentially increase the number of game states, the program uses an iterative optimization process to determine near-optimal sacrifice timings:</p>
+
+            <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+              <div class="text-green-400 font-semibold">Initial Baseline</div>
+              <div>First, the simulation runs without any sacrifices to establish a baseline purchase sequence using the selected purchase strategy.</div>
+            </div>
+
+            <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+              <div class="text-green-400 font-semibold">Incremental Sacrifice Optimization</div>
+              <div>Using the fixed purchase sequence from the baseline run, the program tests sacrifice boosts from 1.001 to 49.999 in 0.001 increments to find optimal sacrifice timings.</div>
+            </div>
+
+            <div class="bg-[#1c1c1c] border border-gray-700 rounded px-3 py-2 mb-3">
+              <div class="text-green-400 font-semibold">Iterative Refinement (Branching Strategies Only)</div>
+              <div>For branching purchase strategies like Optimized, the program alternates between two phases until no further improvement is found:</div>
+              <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+                <li>Purchase optimization: using the fixed sacrifice sequence from the previous step, search for the optimal purchase sequence</li>
+                <li>Sacrifice optimization: using the fixed purchase sequence from the previous step, search for the optimal sacrifice timings</li>
+              </ul>
+            </div>
+
+            <p class="mb-3">This iterative approach converges to a good local optimum but doesn't guarantee the absolute optimal purchase+sacrifice combination. However, it gives a realistic estimate of sacrifice timing within practical computational limits.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./constants.js"></script>
+  <script type="module" src="./dom-elements.js"></script>
+  <script type="module" src="./state.js"></script>
+  <script type="module" src="./utils.js"></script>
+  <script type="module" src="./rendering.js"></script>
+  <script type="module" src="./column-management.js"></script>
+  <script type="module" src="./tracking-mode.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
