@@ -116,10 +116,14 @@ function refreshDimboosts(savedDimboostValue = null) {
     dimboostToSet = savedDimboostValue;
   } else {
     const currentSaved = localStorage.getItem('ad-dimboost');
-    if (currentSaved && parseInt(currentSaved) <= maxDimboost) {
-      dimboostToSet = currentSaved;
+    if (!currentSaved) {
+      dimboostToSet = 0;
     } else {
-      dimboostToSet = maxDimboost;
+      if (parseInt(currentSaved) <= maxDimboost) {
+        dimboostToSet = currentSaved;
+      } else {
+        dimboostToSet = maxDimboost;
+      }
     }
   }
   
