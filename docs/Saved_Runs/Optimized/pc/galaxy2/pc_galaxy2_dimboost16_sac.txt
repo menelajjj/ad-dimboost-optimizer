@@ -763,9 +763,9 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
 
 === ITERATIVE OPTIMIZATION INFO ===
 {
-    "total_strategy_search_time": "01:43.774",
+    "total_strategy_search_time": "01:07.919",
     "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-    "max_used_memory_mb": 1542.875,
+    "max_used_memory_mb": 7316.066,
     "total_states_analyzed": 212064,
     "number_of_iterations": 6,
     "iterations": [
@@ -783,17 +783,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "OptimizedPurchaseStrategy",
                 "sacrifice_strategy": "NeverSacrificeStrategy",
                 "sacrifice_step": 0,
-                "strategy_search_time": "00:25.450",
+                "strategy_search_time": "00:20.724",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1487.469,
+                "used_memory_mb": 5820.145,
                 "states_analyzed": 68516,
                 "number_of_winners": 23,
                 "time_breakdown": {
-                    "tick": "00:00.027 (0%)",
-                    "buy": "00:25.105 (98%)",
+                    "tick": "00:00.044 (0%)",
+                    "buy": "00:20.358 (98%)",
                     "sacrifice": "00:00.000 (0%)",
-                    "clear": "00:00.135 (0%)",
-                    "other": "00:00.182 (0%)"
+                    "clear": "00:00.129 (0%)",
+                    "other": "00:00.192 (0%)"
                 }
             }
         },
@@ -811,17 +811,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "PurchaseStrategyFromActionList",
                 "sacrifice_strategy": "IncrementalSacrificeStrategy",
                 "sacrifice_step": 0.001,
-                "strategy_search_time": "00:09.186",
+                "strategy_search_time": "00:01.928",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1497.309,
+                "used_memory_mb": 5973.469,
                 "states_analyzed": 5844,
                 "number_of_winners": 2,
                 "time_breakdown": {
-                    "tick": "00:00.017 (0%)",
-                    "buy": "00:06.115 (66%)",
-                    "sacrifice": "00:02.771 (30%)",
-                    "clear": "00:00.189 (2%)",
-                    "other": "00:00.092 (1%)"
+                    "tick": "00:00.013 (0%)",
+                    "buy": "00:01.116 (57%)",
+                    "sacrifice": "00:00.588 (30%)",
+                    "clear": "00:00.116 (6%)",
+                    "other": "00:00.093 (4%)"
                 }
             }
         },
@@ -839,17 +839,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "OptimizedPurchaseStrategy",
                 "sacrifice_strategy": "SacrificeStrategyFromActionList",
                 "sacrifice_step": 0,
-                "strategy_search_time": "00:27.879",
+                "strategy_search_time": "00:22.724",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1542.875,
+                "used_memory_mb": 6425.422,
                 "states_analyzed": 66422,
                 "number_of_winners": 68,
                 "time_breakdown": {
                     "tick": "00:00.012 (0%)",
-                    "buy": "00:26.979 (96%)",
-                    "sacrifice": "00:00.591 (2%)",
-                    "clear": "00:00.114 (0%)",
-                    "other": "00:00.182 (0%)"
+                    "buy": "00:21.783 (95%)",
+                    "sacrifice": "00:00.601 (2%)",
+                    "clear": "00:00.115 (0%)",
+                    "other": "00:00.211 (0%)"
                 }
             }
         },
@@ -867,17 +867,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "PurchaseStrategyFromActionList",
                 "sacrifice_strategy": "IncrementalSacrificeStrategy",
                 "sacrifice_step": 0.001,
-                "strategy_search_time": "00:09.119",
+                "strategy_search_time": "00:01.988",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1495.52,
+                "used_memory_mb": 6579.0,
                 "states_analyzed": 5549,
                 "number_of_winners": 4,
                 "time_breakdown": {
-                    "tick": "00:00.017 (0%)",
-                    "buy": "00:05.396 (59%)",
-                    "sacrifice": "00:03.443 (37%)",
-                    "clear": "00:00.175 (1%)",
-                    "other": "00:00.086 (0%)"
+                    "tick": "00:00.015 (0%)",
+                    "buy": "00:01.083 (54%)",
+                    "sacrifice": "00:00.680 (34%)",
+                    "clear": "00:00.117 (5%)",
+                    "other": "00:00.091 (4%)"
                 }
             }
         },
@@ -895,17 +895,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "OptimizedPurchaseStrategy",
                 "sacrifice_strategy": "SacrificeStrategyFromActionList",
                 "sacrifice_step": 0,
-                "strategy_search_time": "00:23.009",
+                "strategy_search_time": "00:18.645",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1487.152,
+                "used_memory_mb": 7163.727,
                 "states_analyzed": 60396,
                 "number_of_winners": 8,
                 "time_breakdown": {
                     "tick": "00:00.010 (0%)",
-                    "buy": "00:22.377 (97%)",
-                    "sacrifice": "00:00.377 (1%)",
+                    "buy": "00:18.019 (96%)",
+                    "sacrifice": "00:00.368 (1%)",
                     "clear": "00:00.085 (0%)",
-                    "other": "00:00.158 (0%)"
+                    "other": "00:00.161 (0%)"
                 }
             }
         },
@@ -923,17 +923,17 @@ item: dimension 4, amount:  4, total: 504, cost_one: 1e+306, cost_amount: 4e+306
                 "purchase_strategy": "PurchaseStrategyFromActionList",
                 "sacrifice_strategy": "IncrementalSacrificeStrategy",
                 "sacrifice_step": 0.001,
-                "strategy_search_time": "00:09.134",
+                "strategy_search_time": "00:01.912",
                 "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1494.844,
+                "used_memory_mb": 7316.066,
                 "states_analyzed": 5337,
                 "number_of_winners": 2,
                 "time_breakdown": {
-                    "tick": "00:00.016 (0%)",
-                    "buy": "00:05.730 (62%)",
-                    "sacrifice": "00:03.130 (34%)",
-                    "clear": "00:00.177 (1%)",
-                    "other": "00:00.078 (0%)"
+                    "tick": "00:00.013 (0%)",
+                    "buy": "00:01.099 (57%)",
+                    "sacrifice": "00:00.605 (31%)",
+                    "clear": "00:00.111 (5%)",
+                    "other": "00:00.083 (4%)"
                 }
             }
         }

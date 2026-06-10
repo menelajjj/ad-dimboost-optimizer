@@ -51,17 +51,17 @@ item: dimension 5, amount: 10, total:  20, cost_one: 1e+17, cost_amount: 1e+18, 
     "purchase_strategy": "OptimizedPurchaseStrategy",
     "sacrifice_strategy": "NeverSacrificeStrategy",
     "sacrifice_step": 0,
-    "strategy_search_time": "00:02.231",
+    "strategy_search_time": "00:02.224",
     "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-    "used_memory_mb": 158.715,
+    "used_memory_mb": 1375.348,
     "states_analyzed": 1327,
     "number_of_winners": 1,
     "time_breakdown": {
-        "tick": "00:00.399 (17%)",
-        "buy": "00:01.070 (47%)",
+        "tick": "00:00.388 (17%)",
+        "buy": "00:01.069 (48%)",
         "sacrifice": "00:00.000 (0%)",
         "clear": "00:00.007 (0%)",
-        "other": "00:00.754 (33%)"
+        "other": "00:00.758 (34%)"
     }
 }
 === END STRATEGY SEARCH INFO ===

@@ -4,8 +4,8 @@
     "galaxies_bought": 2,
     "dimboosts_bought": 14,
     "has_sacrifice": false,
-    "game_time": "00:31.416",
-    "ticks_passed": 952,
+    "game_time": "00:31.350",
+    "ticks_passed": 950,
     "tick_duration": 0.033
 }
 === END GAME INFO ===
@@ -637,8 +637,8 @@ item:   tickspeed, amount:  1, total: 261, cost_one: 1e+263, cost_amount: 1e+263
 item: dimension 2, amount: 10, total: 660, cost_one: 1e+262, cost_amount: 1e+263, cost_stack: 1e+263, time: 00:30.360
 item: dimension 1, amount: 10, total: 880, cost_one: 1e+262, cost_amount: 1e+263, cost_stack: 1e+263, time: 00:30.492
 item:   tickspeed, amount:  1, total: 262, cost_one: 1e+264, cost_amount: 1e+264, cost_stack: 1e+264, time: 00:30.756
-item: dimension 8, amount: 10, total: 170, cost_one: 1e+264, cost_amount: 1e+265, cost_stack: 1e+265, time: 00:31.416
-item: dimension 6, amount:  8, total: 258, cost_one: 1e+263, cost_amount: 8e+263, cost_stack: 1e+264, time: 00:31.416
+item: dimension 8, amount: 10, total: 170, cost_one: 1e+264, cost_amount: 1e+265, cost_stack: 1e+265, time: 00:31.350
+item: dimension 6, amount:  1, total: 251, cost_one: 1e+263, cost_amount: 1e+263, cost_stack: 1e+264, time: 00:31.350
 === END ACTIONS ===
 
 === STRATEGY SEARCH INFO ===
@@ -646,17 +646,17 @@ item: dimension 6, amount:  8, total: 258, cost_one: 1e+263, cost_amount: 8e+263
     "purchase_strategy": "OptimizedPurchaseStrategy",
     "sacrifice_strategy": "NeverSacrificeStrategy",
     "sacrifice_step": 0,
-    "strategy_search_time": "01:05.681",
+    "strategy_search_time": "01:06.886",
     "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-    "used_memory_mb": 1267.82,
-    "states_analyzed": 174801,
-    "number_of_winners": 23,
+    "used_memory_mb": 10850.73,
+    "states_analyzed": 174770,
+    "number_of_winners": 18,
     "time_breakdown": {
-        "tick": "00:00.052 (0%)",
-        "buy": "01:05.088 (99%)",
+        "tick": "00:00.061 (0%)",
+        "buy": "01:05.728 (98%)",
         "sacrifice": "00:00.000 (0%)",
-        "clear": "00:00.267 (0%)",
-        "other": "00:00.273 (0%)"
+        "clear": "00:00.271 (0%)",
+        "other": "00:00.825 (1%)"
     }
 }
 === END STRATEGY SEARCH INFO ===
