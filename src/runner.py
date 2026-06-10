@@ -4,6 +4,7 @@ import time
 import os
 import psutil
 import numpy as np
+import math
 
 from utils import ArraysTypes, Constants, Helper
 from live import live_display
@@ -76,9 +77,10 @@ class Runner():
             # amounts[0] is antimatter
             # amounts[1, ..., max_dims] are dims amounts
             # amounts[max_dims+1] is amount of dim 1 sacrificed
-        self.bought_amounts = np.empty((Constants.numpy_reserve_step, 1 + self.max_dims), dtype=ArraysTypes.bought_amounts)
+        self.bought_amounts = np.empty((Constants.numpy_reserve_step, 1 + self.max_dims + 2), dtype=ArraysTypes.bought_amounts)
             # bought_amounts[0] is bought tickspeed
-            # bought_amounts[1-8] are bought dims
+            # bought_amounts[1-max_dims] are bought dims
+            # bought_amounts[max_dims+1, max_dims+2] are for achievements possible in this dimboost
         self.costs = np.empty((Constants.numpy_reserve_step, 1 + self.max_dims), dtype=ArraysTypes.costs)
             # costs[0] is tickspeed cost
             # costs[1-8] are dims costs
@@ -86,6 +88,29 @@ class Runner():
             # multipliers[0] is tickspeed multiplier
             # multipliers[1-8] are dims multipliers
         self.num_states_reserved = Constants.numpy_reserve_step
+
+        self.can_unlock_achs = False
+        self.check_ach_one = self.check_ach_empty
+        self.check_ach_two = self.check_ach_empty
+        if self.galaxies_bought == 0:
+            if self.dimboosts_bought == 5:
+                self.check_ach_one = self.check_ach_42
+                self.can_unlock_achs = True
+            elif self.dimboosts_bought == 6:
+                self.check_ach_one = self.check_ach_24
+                self.check_ach_two = self.check_ach_44
+                self.can_unlock_achs = True
+            elif self.dimboosts_bought == 7:
+                self.check_ach_one = self.check_ach_46
+                self.can_unlock_achs = True
+        elif self.galaxies_bought == 1:
+            if self.dimboosts_bought == 11:
+                self.check_ach_one = self.check_ach_28
+                self.can_unlock_achs = True
+        elif self.galaxies_bought == 2:
+            if self.dimboosts_bought == 14:
+                self.check_ach_one = self.check_ach_31
+                self.can_unlock_achs = True
 
         self.add_start_state()
         line = 0
@@ -348,6 +373,88 @@ class Runner():
         end_time = time.perf_counter()
         self.spent_for_tick += end_time - start_time
 
+    def check_achs_all(self) -> None:
+        if not self.can_unlock_achs:
+            return
+        for line in range(self.num_states_current):
+            self.check_ach_one(line)
+            self.check_ach_two(line)
+    
+    def check_ach_empty(self, line) -> None:
+        pass
+    
+    def check_ach_42(self, line) -> None:
+        if self.bought_amounts[line][self.max_dims+1] > 0:
+            return
+        if self.amounts[line][0] <= 1e63:
+            return
+        if self.amounts[line][1] * self.multipliers[line][1] * self.multipliers[line][0] <= self.amounts[line][0]:
+            return
+        self.bought_amounts[line][self.max_dims+1] = 1
+        self.add_achs(line, 1)
+    
+    def check_ach_24(self, line) -> None:
+        if self.bought_amounts[line][self.max_dims+1] > 0:
+            return
+        if self.amounts[line][0] < 1e80:
+            return
+        self.bought_amounts[line][self.max_dims+1] = 1
+        self.add_achs(line, 1)
+    
+    def check_ach_44(self, line) -> None:
+        # this is the only ach which saves its info in bought_amounts[max_dims+2]
+        consecutive_ticks = 1 * math.ceil(30 / self.tick_duration) # 1 or 2 checks each tick, depending on check_achs_all calls
+        # can save some time by storing consecutive_ticks globally
+        
+        if self.bought_amounts[line][self.max_dims+2] >= consecutive_ticks:
+            return
+        
+        if self.amounts[line][1] * self.multipliers[line][1] * self.multipliers[line][0] <= self.amounts[line][0]:
+            # if the next two lines are commented - ach is always given after 30 seconds
+            # self.bought_amounts[line][self.max_dims+2] = 0
+            # return
+            pass
+        self.bought_amounts[line][self.max_dims+2] += 1
+        if self.bought_amounts[line][self.max_dims+2] < consecutive_ticks:
+            return
+        self.add_achs(line, 1)
+    
+    def check_ach_46(self, line) -> None:
+        if self.bought_amounts[line][self.max_dims+1] > 0:
+            return
+        for tier in range(1, self.max_dims): # all except 8th
+            if self.amounts[line][tier] < 1e12:
+                return
+        self.bought_amounts[line][self.max_dims+1] = 1
+        self.add_achs(line, 1)
+    
+    def check_ach_28(self, line) -> None:
+        if self.bought_amounts[line][self.max_dims+1] > 0:
+            return
+        tier = 1
+        if self.amounts[line][tier] <= 1e150:
+            return
+        if self.bought_amounts[line][tier] % 10 == 0: # we assume that 1e150 amount is obtained first, and only after that first of stack is bought
+            return
+        self.bought_amounts[line][self.max_dims+1] = 1
+        self.multipliers[line][tier] *= Constants.ach28_multiplier
+        self.add_achs(line, 1)
+    
+    def check_ach_31(self, line) -> None:
+        if self.bought_amounts[line][self.max_dims+1] > 0:
+            return
+        found = False
+        for tier in range(1, self.max_dims + 1):
+            if self.multipliers[line][tier] > 1e31:
+                found = True
+                break
+        if not found:
+            return
+        self.bought_amounts[line][self.max_dims+1] = 1
+        tier = 1
+        self.multipliers[line][tier] *= Constants.ach31_multiplier
+        self.add_achs(line, 1)
+    
     def sorted_indices(self, item_int: int) -> np.ndarray:
         return np.argsort(self.amounts[:self.num_states_current, item_int])[::-1].astype(ArraysTypes.sorted_indices)
     
@@ -461,7 +568,7 @@ class Runner():
     def get_winner_line(self) -> Union[int, None]:
         winner_last_dim_bought = Helper.winner_last_dim_bought(self.galaxies_bought, self.dimboosts_bought)
         for line in range(self.num_states_current):
-            if self.bought_amounts[line][-1] >= winner_last_dim_bought:
+            if self.bought_amounts[line][self.max_dims] >= winner_last_dim_bought:
                 return line
         return None
 
@@ -469,7 +576,7 @@ class Runner():
         result = 0
         winner_last_dim_bought = Helper.winner_last_dim_bought(self.galaxies_bought, self.dimboosts_bought)
         for line in range(self.num_states_current):
-            if self.bought_amounts[line][-1] >= winner_last_dim_bought:
+            if self.bought_amounts[line][self.max_dims] >= winner_last_dim_bought:
                 result += 1
         return result
     
@@ -527,6 +634,8 @@ class Runner():
                 self.tick_all()
         except FloatingPointError as e:
             raise ValueError from e
+        self.check_achs_all()
+        
         state_num_before_buy_and_sacrifice = self.num_states_current
         start_time = time.perf_counter()
         can_buy_bools = np.zeros(self.num_states_current, dtype=bool)
@@ -535,6 +644,7 @@ class Runner():
             self.buy_all(can_buy_bools)
         end_time = time.perf_counter()
         self.spent_for_buy += end_time - start_time
+        # self.check_achs_all()
 
         if (self.dimboosts_bought >= 5) and self.sacrifice_strategy.is_real_sacrifice_strategy:
             start_time = time.perf_counter()

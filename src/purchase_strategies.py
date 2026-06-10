@@ -120,7 +120,7 @@ class PurchaseStrategyWithList(OptimizedPurchaseStrategy):
         self.purchase_list = purchase_list
     
     def next_purchases_short_list(self, runner: 'Runner', line: int) -> list:
-        valid_purchases_num = runner.bought_amounts[line].sum()
+        valid_purchases_num = runner.bought_amounts[line][:-2].sum()
         if valid_purchases_num < len(self.purchase_list):
             return [self.purchase_list[valid_purchases_num]]
         return super().next_purchases_short_list(runner, line)

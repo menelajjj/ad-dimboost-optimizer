@@ -75,7 +75,7 @@ extern "C" {
             double val_first_j = amounts[j * amounts_features + k];
             if (val_first_i < val_first_j) return false;
         }
-        int bought_amounts_features = max_dims + 1;
+        int bought_amounts_features = max_dims + 1 + 2;
         for (int k = 0; k < bought_amounts_features; ++k) {
             int32_t val_second_i = bought_amounts[i * bought_amounts_features + k];
             int32_t val_second_j = bought_amounts[j * bought_amounts_features + k];

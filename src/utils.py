@@ -50,7 +50,7 @@ class Constants:
 
     addition_cycles_without_clear_limit = 300
     state_growth_without_clear_limit = 1.5
-    numpy_reserve_step = int(1e5)
+    numpy_reserve_step = int(1e4)
     numpy_actions_reserve_step = 30
 
     no_action_const = -1
@@ -62,7 +62,7 @@ class Constants:
     purchase_strategy_always_buy_multiplier = 1000
 
     sacrifice_infinity = 1e10
-    sacrifice_max = 50
+    sacrifice_max = 25
     
     platform_list = ['pc', 'mobile']
     galaxies_bought_list = [0, 1, 2]
@@ -152,6 +152,8 @@ class Helper:
     
     @classmethod
     def winner_last_dim_bought(cls, galaxies_bought: int, dimboosts_bought: int) -> int:
+        if (galaxies_bought == 1) and (dimboosts_bought == 9):
+            return 99 # ~10 sec faster to get ach23 in dimboosts_bought=9 than in dimboosts_bought=10 (pc)
         if cls.last_dimboost(galaxies_bought) == dimboosts_bought: # if this is the last dimboost for this galaxy, then ignore dimboost requirement and use galaxy requirement instead
             if galaxies_bought == 0:
                 return 80
