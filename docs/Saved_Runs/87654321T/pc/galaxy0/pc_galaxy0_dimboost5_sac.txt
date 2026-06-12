@@ -4,8 +4,8 @@
     "galaxies_bought": 0,
     "dimboosts_bought": 5,
     "has_sacrifice": true,
-    "game_time": "21:43.467",
-    "ticks_passed": 39499,
+    "game_time": "21:35.183",
+    "ticks_passed": 39248,
     "tick_duration": 0.033
 }
 === END GAME INFO ===
@@ -154,27 +154,27 @@ item: dimension 2, amount: 10, total: 160, cost_one: 1e+62, cost_amount: 1e+63, 
 item:   tickspeed, amount:  1, total:  61, cost_one: 1e+63, cost_amount: 1e+63, cost_stack: 1e+63, time: 16:17.229
 item: dimension 6, amount: 10, total:  60, cost_one: 1e+63, cost_amount: 1e+64, cost_stack: 1e+64, time: 16:46.104
 item:   tickspeed, amount:  1, total:  62, cost_one: 1e+64, cost_amount: 1e+64, cost_stack: 1e+64, time: 16:58.743
-item: dimension 3, amount: 10, total: 130, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 17:38.970
-item: dimension 1, amount: 10, total: 220, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 17:55.602
-item:   tickspeed, amount:  1, total:  63, cost_one: 1e+65, cost_amount: 1e+65, cost_stack: 1e+65, time: 18:01.311
-item: dimension 5, amount: 10, total:  80, cost_one: 1e+65, cost_amount: 1e+66, cost_stack: 1e+66, time: 18:27.578
-item:   tickspeed, amount:  1, total:  64, cost_one: 1e+66, cost_amount: 1e+66, cost_stack: 1e+66, time: 18:40.812
-item: dimension 7, amount: 10, total:  50, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:23.019
-item: dimension 4, amount: 10, total: 110, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:40.410
-item: dimension 2, amount: 10, total: 170, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:51.827
-item:   tickspeed, amount:  1, total:  65, cost_one: 1e+67, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:59.649
-item: dimension 1, amount: 10, total: 230, cost_one: 1e+67, cost_amount: 1e+68, cost_stack: 1e+68, time: 20:27.369
-item:   tickspeed, amount:  1, total:  66, cost_one: 1e+68, cost_amount: 1e+68, cost_stack: 1e+68, time: 20:34.497
-item:   tickspeed, amount:  1, total:  67, cost_one: 1e+69, cost_amount: 1e+69, cost_stack: 1e+69, time: 21:04.362
-item: dimension 8, amount:  5, total:  35, cost_one: 1e+69, cost_amount: 5e+69, cost_stack: 1e+70, time: 21:43.467
+item: dimension 3, amount: 10, total: 130, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 17:37.815
+item: dimension 1, amount: 10, total: 220, cost_one: 1e+64, cost_amount: 1e+65, cost_stack: 1e+65, time: 17:53.985
+item:   tickspeed, amount:  1, total:  63, cost_one: 1e+65, cost_amount: 1e+65, cost_stack: 1e+65, time: 17:59.496
+item: dimension 5, amount: 10, total:  80, cost_one: 1e+65, cost_amount: 1e+66, cost_stack: 1e+66, time: 18:25.038
+item:   tickspeed, amount:  1, total:  64, cost_one: 1e+66, cost_amount: 1e+66, cost_stack: 1e+66, time: 18:37.875
+item: dimension 7, amount: 10, total:  50, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:18.827
+item: dimension 4, amount: 10, total: 110, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:35.724
+item: dimension 2, amount: 10, total: 170, cost_one: 1e+66, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:46.812
+item:   tickspeed, amount:  1, total:  65, cost_one: 1e+67, cost_amount: 1e+67, cost_stack: 1e+67, time: 19:54.402
+item: dimension 1, amount: 10, total: 230, cost_one: 1e+67, cost_amount: 1e+68, cost_stack: 1e+68, time: 20:21.297
+item:   tickspeed, amount:  1, total:  66, cost_one: 1e+68, cost_amount: 1e+68, cost_stack: 1e+68, time: 20:28.227
+item:   tickspeed, amount:  1, total:  67, cost_one: 1e+69, cost_amount: 1e+69, cost_stack: 1e+69, time: 20:57.234
+item: dimension 8, amount:  5, total:  35, cost_one: 1e+69, cost_amount: 5e+69, cost_stack: 1e+70, time: 21:35.183
 === END ACTIONS ===
 
 === ITERATIVE OPTIMIZATION INFO ===
 {
-    "total_strategy_search_time": "09:58.983",
-    "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-    "max_used_memory_mb": 1377.496,
-    "total_states_analyzed": 5464716,
+    "total_strategy_search_time": "12:44.589",
+    "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+    "max_used_memory_mb": 1526.934,
+    "total_states_analyzed": 5460763,
     "number_of_iterations": 2,
     "iterations": [
         {
@@ -183,25 +183,25 @@ item: dimension 8, amount:  5, total:  35, cost_one: 1e+69, cost_amount: 5e+69, 
                 "galaxies_bought": 0,
                 "dimboosts_bought": 5,
                 "has_sacrifice": false,
-                "game_time": "26:27.630",
-                "ticks_passed": 48110,
+                "game_time": "26:16.839",
+                "ticks_passed": 47783,
                 "tick_duration": 0.033
             },
             "strategy_search_info": {
                 "purchase_strategy": "Fixed87654321TPurchaseStrategy",
                 "sacrifice_strategy": "NeverSacrificeStrategy",
                 "sacrifice_step": 0,
-                "strategy_search_time": "00:06.542",
-                "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 386.727,
+                "strategy_search_time": "00:13.053",
+                "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+                "used_memory_mb": 1526.934,
                 "states_analyzed": 1,
                 "number_of_winners": 1,
                 "time_breakdown": {
-                    "tick": "00:01.941 (29%)",
-                    "buy": "00:02.850 (43%)",
+                    "tick": "00:04.745 (36%)",
+                    "buy": "00:05.797 (44%)",
                     "sacrifice": "00:00.000 (0%)",
                     "clear": "00:00.000 (0%)",
-                    "other": "00:01.750 (26%)"
+                    "other": "00:02.510 (19%)"
                 }
             }
         },
@@ -211,25 +211,25 @@ item: dimension 8, amount:  5, total:  35, cost_one: 1e+69, cost_amount: 5e+69, 
                 "galaxies_bought": 0,
                 "dimboosts_bought": 5,
                 "has_sacrifice": true,
-                "game_time": "21:43.467",
-                "ticks_passed": 39499,
+                "game_time": "21:35.183",
+                "ticks_passed": 39248,
                 "tick_duration": 0.033
             },
             "strategy_search_info": {
                 "purchase_strategy": "PurchaseStrategyFromActionList",
                 "sacrifice_strategy": "IncrementalSacrificeStrategy",
                 "sacrifice_step": 0.001,
-                "strategy_search_time": "09:52.442",
-                "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1377.496,
-                "states_analyzed": 5464715,
+                "strategy_search_time": "12:31.536",
+                "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+                "used_memory_mb": 553.324,
+                "states_analyzed": 5460762,
                 "number_of_winners": 1,
                 "time_breakdown": {
-                    "tick": "00:07.942 (1%)",
-                    "buy": "00:32.024 (5%)",
-                    "sacrifice": "05:51.540 (59%)",
-                    "clear": "02:45.583 (27%)",
-                    "other": "00:35.350 (5%)"
+                    "tick": "00:15.750 (2%)",
+                    "buy": "01:03.750 (8%)",
+                    "sacrifice": "05:50.516 (46%)",
+                    "clear": "02:39.356 (21%)",
+                    "other": "02:42.162 (21%)"
                 }
             }
         }

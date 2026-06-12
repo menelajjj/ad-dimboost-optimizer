@@ -740,9 +740,9 @@ item: dimension 7, amount:  2, total: 242, cost_one: 1e+306, cost_amount: 2e+306
 
 === ITERATIVE OPTIMIZATION INFO ===
 {
-    "total_strategy_search_time": "00:18.887",
-    "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-    "max_used_memory_mb": 1492.645,
+    "total_strategy_search_time": "00:03.845",
+    "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+    "max_used_memory_mb": 2320.43,
     "total_states_analyzed": 5620,
     "number_of_iterations": 2,
     "iterations": [
@@ -760,17 +760,17 @@ item: dimension 7, amount:  2, total: 242, cost_one: 1e+306, cost_amount: 2e+306
                 "purchase_strategy": "FixedT87654321PurchaseStrategy",
                 "sacrifice_strategy": "NeverSacrificeStrategy",
                 "sacrifice_step": 0,
-                "strategy_search_time": "00:08.138",
-                "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1417.41,
+                "strategy_search_time": "00:01.077",
+                "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+                "used_memory_mb": 2188.598,
                 "states_analyzed": 1,
                 "number_of_winners": 1,
                 "time_breakdown": {
-                    "tick": "00:00.034 (0%)",
-                    "buy": "00:08.077 (99%)",
+                    "tick": "00:00.053 (4%)",
+                    "buy": "00:00.996 (92%)",
                     "sacrifice": "00:00.000 (0%)",
                     "clear": "00:00.000 (0%)",
-                    "other": "00:00.026 (0%)"
+                    "other": "00:00.027 (2%)"
                 }
             }
         },
@@ -788,17 +788,17 @@ item: dimension 7, amount:  2, total: 242, cost_one: 1e+306, cost_amount: 2e+306
                 "purchase_strategy": "PurchaseStrategyFromActionList",
                 "sacrifice_strategy": "IncrementalSacrificeStrategy",
                 "sacrifice_step": 0.001,
-                "strategy_search_time": "00:10.750",
-                "CPU": "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz",
-                "used_memory_mb": 1492.645,
+                "strategy_search_time": "00:02.769",
+                "CPU": "Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz",
+                "used_memory_mb": 2320.43,
                 "states_analyzed": 5619,
                 "number_of_winners": 3,
                 "time_breakdown": {
-                    "tick": "00:00.018 (0%)",
-                    "buy": "00:06.993 (65%)",
-                    "sacrifice": "00:03.193 (29%)",
-                    "clear": "00:00.399 (3%)",
-                    "other": "00:00.144 (1%)"
+                    "tick": "00:00.024 (0%)",
+                    "buy": "00:01.818 (65%)",
+                    "sacrifice": "00:00.670 (24%)",
+                    "clear": "00:00.180 (6%)",
+                    "other": "00:00.076 (2%)"
                 }
             }
         }
