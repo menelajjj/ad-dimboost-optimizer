@@ -76,8 +76,11 @@ if __name__ == '__main__':
         Fixed12345678TPurchaseStrategy(),
         OptimizedPurchaseStrategy()
     ]
+    platform_list = []
+    galaxies_bought_list = []
+    dimboosts_bought_list = []
     for purchase_strategy in purchase_strategy_list:
-        search_and_save_several(purchase_strategy=purchase_strategy)
+        search_and_save_several(purchase_strategy=purchase_strategy, platform_list=platform_list, galaxies_bought_list=galaxies_bought_list, dimboosts_bought_list=dimboosts_bought_list)
         create_strategy_summary(purchase_strategy)
     
     live_display.stop()
